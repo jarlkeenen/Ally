@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class CareFunctions : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class CareFunctions : MonoBehaviour
 
     [Header("Other")]
     public GameObject spotLight;
+    private SpriteRenderer lightOpacity;
+    public TextMeshProUGUI opacityLevel;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +23,8 @@ public class CareFunctions : MonoBehaviour
         wateringPailParent.SetActive(false);
         sunSlider.SetActive(false);
         fertilizePlantParent.SetActive(false);
+
+        lightOpacity = spotLight.GetComponent<SpriteRenderer>();
     }
 
     public void waterPlant()
@@ -34,7 +39,15 @@ public class CareFunctions : MonoBehaviour
 
     public void adjustLight(float opacity)
     {
-        spotLight.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, -opacity);
+        Color tmp = lightOpacity.color;
+
+        tmp.a = opacity;
+
+        lightOpacity.color = tmp;
+
+        opacityLevel.text = Mathf.RoundToInt(opacity * 100) + "%";
+        Debug.Log(tmp);
+        Debug.Log(lightOpacity.color);
         Debug.Log(opacity);
     }
 
