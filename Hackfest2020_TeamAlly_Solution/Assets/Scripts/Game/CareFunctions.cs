@@ -8,6 +8,7 @@ public class CareFunctions : MonoBehaviour
     [Header("Care Item Parents")]
     public GameObject wateringPailParent;
     public GameObject fertilizePlantParent;
+    public GameObject pesticideParent;
 
     [Header("Care Items")]
     public GameObject sunSlider;
@@ -23,6 +24,7 @@ public class CareFunctions : MonoBehaviour
         wateringPailParent.SetActive(false);
         sunSlider.SetActive(false);
         fertilizePlantParent.SetActive(false);
+        pesticideParent.SetActive(false);
 
         lightOpacity = spotLight.GetComponent<SpriteRenderer>();
     }
@@ -46,9 +48,6 @@ public class CareFunctions : MonoBehaviour
         lightOpacity.color = tmp;
 
         opacityLevel.text = Mathf.RoundToInt(opacity * 100) + "%";
-        Debug.Log(tmp);
-        Debug.Log(lightOpacity.color);
-        Debug.Log(opacity);
     }
 
     public void sunSliderHide()
@@ -60,4 +59,10 @@ public class CareFunctions : MonoBehaviour
     {
         fertilizePlantParent.SetActive(true);
     }
+
+    public void sprayPesticide()
+    {
+        pesticideParent.SetActive(true);
+    }
+
 }
