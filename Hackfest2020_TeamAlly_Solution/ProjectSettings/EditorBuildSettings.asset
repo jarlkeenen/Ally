@@ -9,9 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 092eeb30e76034d4aaade04f8e160fef
+  - enabled: 1
     path: Assets/Scenes/Greenhouse.unity
     guid: 7aad7c740dd500043b843f6d219e61b1
   - enabled: 1
     path: Assets/Scenes/PlantScene.unity
     guid: 82b8529986e9a5441802e5e62542ea23
+  - enabled: 1
+    path: Assets/Scenes/Market.unity
+    guid: b9d4ce517c8093044ad21937f40fa9b0
+  - enabled: 1
+    path: Assets/Scenes/Notification.unity
+    guid: 5f31f922f328ba248be55489ccfb8e31
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 225f23aebcbbc5c46a3b565b8eca5c00
   m_configObjects: {}
