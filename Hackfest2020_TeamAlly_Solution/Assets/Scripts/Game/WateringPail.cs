@@ -8,13 +8,11 @@ public class WateringPail : MonoBehaviour
     public GameObject wateringEffect;
 
     private Animator anime;
-    private Collider2D discollider;
-
 
     private void Start()
     {
         anime = GetComponent<Animator>();
-        discollider = GetComponent<BoxCollider2D>();
+
     }
     IEnumerator delayWater()
     {

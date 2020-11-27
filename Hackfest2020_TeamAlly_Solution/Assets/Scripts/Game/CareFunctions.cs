@@ -8,12 +8,13 @@ public class CareFunctions : MonoBehaviour
     public GameObject wateringPailParent;
 
     [Header("Care Items")]
-    public GameObject wateringPail;
+    public GameObject sunSlider;
 
     // Start is called before the first frame update
     void Start()
     {
         wateringPailParent.SetActive(false);
+        sunSlider.SetActive(false);
     }
 
     // Update is called once per frame
@@ -25,5 +26,15 @@ public class CareFunctions : MonoBehaviour
     public void waterPlant()
     {
         wateringPailParent.SetActive(true);      
+    }
+
+    public void sunSliderShow()
+    {
+        sunSlider.SetActive(true);
+    }
+
+    public void sunSliderHide()
+    {
+        sunSlider.SetActive(false);
     }
 }
