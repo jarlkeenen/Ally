@@ -57,12 +57,11 @@ public class CareFunctions : MonoBehaviour
 
         opacityLevelText.gameObject.SetActive(true);
         opacityLevelText.text = Mathf.RoundToInt(opacity * 100) + "%";
-
-        sunBar.GetComponent<Healthbar>().addhealth(20);
     }
 
     public void sunSliderHide()
     {
+        sunBar.GetComponent<Healthbar>().addhealth(20);
         opacityLevelText.gameObject.SetActive(false);
         sunSlider.SetActive(false);
     }
