@@ -17389,7 +17389,7 @@ PrefabInstance:
     - target: {fileID: 8101886802633967812, guid: ee91b8214f5bd2a4593e980c0a197c1b,
         type: 3}
       propertyPath: m_Value
-      value: 5
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 8101886802633967813, guid: ee91b8214f5bd2a4593e980c0a197c1b,
         type: 3}
@@ -17874,7 +17874,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: b880fbf34ea54e14a8d46fd641d47ff3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 72449f8ddb5af1b409c48e6b81c707f9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -17893,8 +17893,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528873206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.06, y: -1.79, z: 0}
-  m_LocalScale: {x: 4.191486, y: 4.02795, z: 1}
+  m_LocalPosition: {x: -0.13, y: -2.4, z: 0}
+  m_LocalScale: {x: 0.23460332, y: 0.1992386, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -17912,18 +17912,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.016946793, y: 0.9067892}
+  m_Offset: {x: -0.16775656, y: 3.751476}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.87, y: 0.88}
+    oldSize: {x: 19.2, y: 19.2}
     newSize: {x: 4.02, y: 4.2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.103216, y: 3.3064215}
+  m_Size: {x: 7.5640564, y: 3.9628968}
   m_EdgeRadius: 0
 --- !u!1 &1542192389
 GameObject:
@@ -24373,7 +24373,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1997720616}
   - component: {fileID: 1997720615}
-  - component: {fileID: 1997720614}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -24381,14 +24380,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1997720614
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1997720613}
-  m_Enabled: 1
 --- !u!20 &1997720615
 Camera:
   m_ObjectHideFlags: 0
