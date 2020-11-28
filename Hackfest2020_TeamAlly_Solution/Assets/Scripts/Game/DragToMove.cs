@@ -10,7 +10,7 @@ public class DragToMove : MonoBehaviour
 
     [Header("Movement")]
     public float moveSpeed = 100f;
-    public float delay = 0f;
+
     // Start is called before the first frame update
     void Start()
     {
