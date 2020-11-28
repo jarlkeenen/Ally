@@ -8,6 +8,7 @@ public class CreditsHandler : MonoBehaviour
     public TextMeshProUGUI creditsText;
 
     public GameObject confirmationPanel;
+    public GameObject purchasingGPPanel;
 
     public int rewardedCredits = 5;
     // Start is called before the first frame update
@@ -36,5 +37,15 @@ public class CreditsHandler : MonoBehaviour
     public void hideConfirmationPanel()
     {
         confirmationPanel.SetActive(false);
+    }
+
+    public void showPurchasingGPPanel()
+    {
+        purchasingGPPanel.SetActive(true);
+    }
+
+    public void hidePurchasingGPPanel()
+    {
+        purchasingGPPanel.SetActive(false);
     }
 }
