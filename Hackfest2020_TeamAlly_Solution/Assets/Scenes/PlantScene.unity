@@ -1243,8 +1243,8 @@ ParticleSystem:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
-          time: 0.008930206
-          value: 0.9538498
+          time: 0
+          value: 0.26154137
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -4960,7 +4960,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12632811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2688112, y: 0.13027705, z: -0.06972401}
+  m_LocalPosition: {x: -0.2688112, y: 1.46, z: -0.06972401}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -12970,7 +12970,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: a13fe86dc560d4c4fa133b15b5e08f1f, type: 3}
+    - sprite: {fileID: 21300000, guid: 59722e638a5aa5f489f986f8099e1744, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -16455,6 +16455,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3968162469934215695, guid: ebdea82cb87159e44bf07f0c0bf28102,
         type: 3}
+    - target: {fileID: 52147186422313934, guid: 8b0ccd4f82cc75a4dab552badd701876,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b0ccd4f82cc75a4dab552badd701876, type: 3}
 --- !u!4 &649183355 stripped
@@ -17713,7 +17718,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16, y: -35}
+  m_AnchoredPosition: {x: 44, y: 29}
   m_SizeDelta: {x: 628.21466, y: 109.34331}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1053472823
@@ -18223,6 +18228,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6673008616921010258, guid: ebdea82cb87159e44bf07f0c0bf28102,
         type: 3}
+    - target: {fileID: 52147186422313934, guid: 8b0ccd4f82cc75a4dab552badd701876,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b0ccd4f82cc75a4dab552badd701876, type: 3}
 --- !u!1 &1351591862
@@ -19011,7 +19021,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528873206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.08, y: -1.57, z: 0}
+  m_LocalPosition: {x: -0.08, y: -2.22, z: 0}
   m_LocalScale: {x: 0.24604349, y: 0.24643116, z: 1}
   m_Children:
   - {fileID: 618012393}
@@ -25753,7 +25763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 42}
+  m_AnchoredPosition: {x: -3, y: 106.00002}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1930320416
@@ -27155,6 +27165,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -8923060405244646541, guid: ebdea82cb87159e44bf07f0c0bf28102,
         type: 3}
+    - target: {fileID: 52147186422313934, guid: 8b0ccd4f82cc75a4dab552badd701876,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b0ccd4f82cc75a4dab552badd701876, type: 3}
 --- !u!1001 &3517806127386404911

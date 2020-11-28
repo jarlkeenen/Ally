@@ -7,7 +7,9 @@ public class PlantDataHandler : MonoBehaviour
 {
     public static PlantDataHandler instance;
 
-    private void Awake()
+    public string gardenName;
+
+    private void Awake()    
     {
         if(instance == null)
         {
