@@ -32,11 +32,6 @@ public class SceneTransition : MonoBehaviour
         StartCoroutine(changeSortOrderAfterAnimation());
     }
 
-    private void Update()
-    {
-        Debug.Log(Screen.width + "  " + Screen.height);
-    }
-
     public void ScreenTransition(string levelName)
     {
         StartCoroutine(LoadLevel(levelName));
