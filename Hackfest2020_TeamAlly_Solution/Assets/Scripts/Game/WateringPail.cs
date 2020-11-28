@@ -7,6 +7,10 @@ public class WateringPail : MonoBehaviour
     [Header("Particle Effects")]
     public GameObject wateringEffect;
 
+    [Header("Bars")]
+    public GameObject healthBar;
+    public GameObject waterBar;
+
     private Animator anime;
 
     private void Start()
@@ -19,6 +23,15 @@ public class WateringPail : MonoBehaviour
         yield return new WaitForSeconds(3f);
 
         wateringEffect.SetActive(false);
+
+        if(gameObject.name == "WateringCan")
+        {
+            waterBar.GetComponent<Healthbar>().addhealth(20);
+        }
+        else if(gameObject.name == "pesticide")
+        {
+            healthBar.GetComponent<Healthbar>().addhealth(20);
+        }
         gameObject.transform.parent.gameObject.SetActive(false);
     }
 
@@ -35,5 +48,10 @@ public class WateringPail : MonoBehaviour
                 StartCoroutine(delayWater());
             }
         }
+    }
+
+    public void increaseBar(int points)
+    {
+        healthBar.GetComponent<Healthbar>().addhealth(points);
     }
 }

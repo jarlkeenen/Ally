@@ -5,6 +5,9 @@ using TMPro;
 
 public class CareFunctions : MonoBehaviour
 {
+    [Header("Bars")]
+    public GameObject sunBar;
+
     [Header("Care Item Parents")]
     public GameObject wateringPailParent;
     public GameObject fertilizePlantParent;
@@ -54,6 +57,8 @@ public class CareFunctions : MonoBehaviour
 
         opacityLevelText.gameObject.SetActive(true);
         opacityLevelText.text = Mathf.RoundToInt(opacity * 100) + "%";
+
+        sunBar.GetComponent<Healthbar>().addhealth(20);
     }
 
     public void sunSliderHide()
@@ -81,5 +86,4 @@ public class CareFunctions : MonoBehaviour
     {
         shearsParent.SetActive(true);
     }
-
 }

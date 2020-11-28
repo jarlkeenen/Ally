@@ -5,8 +5,13 @@ using UnityEngine.UI;
 
 public class Healthbar : MonoBehaviour
 {
-    public Slider slider; 
+    private Slider slider; 
 
+
+    public void addhealth(int health)
+    {
+        slider.value += health;
+    }
     //adjust health
     public void setHealth(int health)
     {
@@ -22,7 +27,7 @@ public class Healthbar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        slider = GetComponent<Slider>();
     }
 
     // Update is called once per frame

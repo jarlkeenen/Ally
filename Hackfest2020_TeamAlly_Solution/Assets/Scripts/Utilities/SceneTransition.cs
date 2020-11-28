@@ -53,6 +53,16 @@ public class SceneTransition : MonoBehaviour
         ScreenTransition("Greenhouse");
     }
 
+    public void loadBabyPlant()
+    {
+        ScreenTransition("BabyPlantScene");
+    }
+
+    public void loadDeadPlant()
+    {
+        ScreenTransition("DeadPlantScene");
+    }
+
     public void loadTitle()
     {
         ScreenTransition("Menu");
@@ -60,7 +70,7 @@ public class SceneTransition : MonoBehaviour
 
     public void loadPlant()
     {
-        ScreenTransition("End");
+        ScreenTransition("PlantScene");
     }
 
     public void loadTutorial()
