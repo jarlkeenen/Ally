@@ -108,6 +108,11 @@ public class SceneTransition : MonoBehaviour
         ScreenTransition("HarvestBasket");
     }
 
+    public void loadCheckOut()
+    {
+        ScreenTransition("CheckOut");
+    }
+
     IEnumerator changeSortOrderAfterAnimation()
     {
         transform.parent.GetComponent<Canvas>().sortingOrder = 3;
