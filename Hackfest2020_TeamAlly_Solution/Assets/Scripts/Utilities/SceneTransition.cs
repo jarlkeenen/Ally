@@ -60,7 +60,7 @@ public class SceneTransition : MonoBehaviour
 
     public void loadPlant()
     {
-        ScreenTransition("End");
+        ScreenTransition("PlantScene");
     }
 
     public void loadTutorial()
