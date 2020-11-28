@@ -88,4 +88,22 @@ public class AudioManager : MonoBehaviour
             sounds[i].source.volume = volume;
         }
     }
+
+    public float GetMusicVolume()
+    {
+        return sounds[0].source.volume;
+    }
+
+    public float GetSoundEffectsVolume()
+    {
+        if (sounds[1] == null)
+        {
+            Debug.LogWarning("Sound file: " + sounds[1].name + " not found!");
+            return 1;
+        }
+        else
+        {
+            return sounds[1].source.volume;
+        }
+    }
 }

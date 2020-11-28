@@ -2223,6 +2223,11 @@ PrefabInstance:
       propertyPath: m_text
       value: SETTINGS
       objectReference: {fileID: 0}
+    - target: {fileID: 7873617340138733098, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 329bb0509c41fdd4394fc9af99d3ee1d, type: 3}
 --- !u!224 &1092455901 stripped
@@ -4686,6 +4691,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 217ed9469e2a42d4fb3687f694f74edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SoundEffects: {fileID: 1907880166}
+  Music: {fileID: 2006452213}
 --- !u!4 &1941057089
 Transform:
   m_ObjectHideFlags: 0
