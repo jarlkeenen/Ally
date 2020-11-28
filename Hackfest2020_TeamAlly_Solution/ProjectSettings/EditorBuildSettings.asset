@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Tutorial.unity
     guid: 092eeb30e76034d4aaade04f8e160fef
   - enabled: 1
+    path: Assets/Scenes/GardenNaming.unity
+    guid: 8247df86435f0294ca165ab6a99377bf
+  - enabled: 1
     path: Assets/Scenes/Greenhouse.unity
     guid: 7aad7c740dd500043b843f6d219e61b1
   - enabled: 1

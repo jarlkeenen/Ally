@@ -78,6 +78,11 @@ public class SceneTransition : MonoBehaviour
         ScreenTransition("Tutorial");
     }
 
+    public void loadGardenNaming()
+    {
+        ScreenTransition("GardenNaming");
+    }
+
     public void loadMarket()
     {
         ScreenTransition("Market");
