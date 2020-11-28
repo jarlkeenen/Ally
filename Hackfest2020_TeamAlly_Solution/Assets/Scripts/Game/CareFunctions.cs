@@ -9,6 +9,7 @@ public class CareFunctions : MonoBehaviour
     public GameObject wateringPailParent;
     public GameObject fertilizePlantParent;
     public GameObject pesticideParent;
+    public GameObject headphonesParent;
 
     [Header("Care Items")]
     public GameObject sunSlider;
@@ -16,7 +17,7 @@ public class CareFunctions : MonoBehaviour
     [Header("Other")]
     public GameObject spotLight;
     private SpriteRenderer lightOpacity;
-    public TextMeshProUGUI opacityLevel;
+    public TextMeshProUGUI opacityLevelText;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,9 @@ public class CareFunctions : MonoBehaviour
         sunSlider.SetActive(false);
         fertilizePlantParent.SetActive(false);
         pesticideParent.SetActive(false);
+        headphonesParent.SetActive(false);
 
+        opacityLevelText.gameObject.SetActive(false);
         lightOpacity = spotLight.GetComponent<SpriteRenderer>();
     }
 
@@ -47,11 +50,13 @@ public class CareFunctions : MonoBehaviour
 
         lightOpacity.color = tmp;
 
-        opacityLevel.text = Mathf.RoundToInt(opacity * 100) + "%";
+        opacityLevelText.gameObject.SetActive(true);
+        opacityLevelText.text = Mathf.RoundToInt(opacity * 100) + "%";
     }
 
     public void sunSliderHide()
     {
+        opacityLevelText.gameObject.SetActive(false);
         sunSlider.SetActive(false);
     }
 
@@ -63,6 +68,11 @@ public class CareFunctions : MonoBehaviour
     public void sprayPesticide()
     {
         pesticideParent.SetActive(true);
+    }
+
+    public void headphonesShow()
+    {
+        headphonesParent.SetActive(true);
     }
 
 }
