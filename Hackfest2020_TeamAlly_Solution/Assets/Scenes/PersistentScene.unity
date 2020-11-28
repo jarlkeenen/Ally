@@ -180,6 +180,30 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: PourWater
+    clip: {fileID: 8300000, guid: 489fa044cbdc5a341af917fc7fad35a0, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Spray
+    clip: {fileID: 8300000, guid: ce8eb0b00adae5f40baae14896bac602, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PourPowder
+    clip: {fileID: 8300000, guid: 80b3a848ba881154a96bde64320f7e63, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Cut
+    clip: {fileID: 8300000, guid: cbacbabf1b3ad4048a53c973c86610e3, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &1299280172
 GameObject:
   m_ObjectHideFlags: 0

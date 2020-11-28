@@ -31,7 +31,8 @@ public class Shears : MonoBehaviour
     {
         if (collision.gameObject.tag == "Fruit")
         {
-            anime.SetTrigger("Cut");   
+            anime.SetTrigger("Cut");
+            AudioManager.instance.Play("Cut");
             collision.GetComponent<Fruit>().Fall();
         }
     }

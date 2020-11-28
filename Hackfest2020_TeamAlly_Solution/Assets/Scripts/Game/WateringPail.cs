@@ -27,10 +27,12 @@ public class WateringPail : MonoBehaviour
         if(gameObject.name == "WateringCan")
         {
             waterBar.GetComponent<Healthbar>().addhealth(20);
+            AudioManager.instance.Play("PourWater");
         }
         else if(gameObject.name == "pesticide")
         {
             healthBar.GetComponent<Healthbar>().addhealth(20);
+            AudioManager.instance.Play("PourPowder");
         }
         gameObject.transform.parent.gameObject.SetActive(false);
     }
@@ -44,6 +46,18 @@ public class WateringPail : MonoBehaviour
                 wateringEffect.SetActive(true);
 
                 anime.SetTrigger("Pour");
+                if (gameObject.name == "WateringCan")
+                {
+                    AudioManager.instance.Play("PourWater");
+                }
+                else if (gameObject.name == "pesticide")
+                {
+                    AudioManager.instance.Play("Spray");
+                }
+                else if (gameObject.name == "fertilizer")
+                {
+                    AudioManager.instance.Play("PourPowder");
+                }
 
                 StartCoroutine(delayWater());
             }
