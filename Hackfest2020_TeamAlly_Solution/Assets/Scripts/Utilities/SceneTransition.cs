@@ -65,7 +65,7 @@ public class SceneTransition : MonoBehaviour
 
     public void loadTitle()
     {
-        ScreenTransition("Menu");
+        ScreenTransition("TitleScreen");
     }
 
     public void loadPlant()
