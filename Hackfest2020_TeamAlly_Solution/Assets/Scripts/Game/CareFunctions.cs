@@ -10,6 +10,7 @@ public class CareFunctions : MonoBehaviour
     public GameObject fertilizePlantParent;
     public GameObject pesticideParent;
     public GameObject headphonesParent;
+    public GameObject shearsParent;
 
     [Header("Care Items")]
     public GameObject sunSlider;
@@ -27,6 +28,7 @@ public class CareFunctions : MonoBehaviour
         fertilizePlantParent.SetActive(false);
         pesticideParent.SetActive(false);
         headphonesParent.SetActive(false);
+        shearsParent.SetActive(false);
 
         opacityLevelText.gameObject.SetActive(false);
         lightOpacity = spotLight.GetComponent<SpriteRenderer>();
@@ -73,6 +75,11 @@ public class CareFunctions : MonoBehaviour
     public void headphonesShow()
     {
         headphonesParent.SetActive(true);
+    }
+
+    public void shearsShow()
+    {
+        shearsParent.SetActive(true);
     }
 
 }
