@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HarvestBasket.unity
     guid: 2c2b33f1f996fc74190b79580c64c772
+  - enabled: 1
+    path: Assets/Scenes/Receipt.unity
+    guid: 8c158e6999886ef4eb0d1ef14ea1be39
   m_configObjects: {}
