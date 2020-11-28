@@ -11431,7 +11431,7 @@ PrefabInstance:
     - target: {fileID: 7283189119208902119, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
       propertyPath: m_text
-      value: Plant Name
+      value: Rose
       objectReference: {fileID: 0}
     - target: {fileID: 7283189119208902121, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}

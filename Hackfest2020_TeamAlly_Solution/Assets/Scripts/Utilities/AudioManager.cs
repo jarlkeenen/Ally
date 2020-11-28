@@ -70,4 +70,22 @@ public class AudioManager : MonoBehaviour
         }
         s.source.Stop(); //stops the sound
     }
+
+    public void adjustMusic(float volume)
+    {
+        sounds[0].source.volume = volume;
+    }
+
+    public void adjustSoundeffects(float volume)
+    {
+        for(int i = 1; i < sounds.Length; i++)
+        {
+            if (sounds[i] == null)
+            {
+                Debug.LogWarning("Sound file: " + sounds[i].name + " not found!");
+                return;
+            }
+            sounds[i].source.volume = volume;
+        }
+    }
 }
