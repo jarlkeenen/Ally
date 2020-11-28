@@ -32,6 +32,11 @@ public class SceneTransition : MonoBehaviour
         StartCoroutine(changeSortOrderAfterAnimation());
     }
 
+    private void Update()
+    {
+        Debug.Log(Screen.width + "  " + Screen.height);
+    }
+
     public void ScreenTransition(string levelName)
     {
         StartCoroutine(LoadLevel(levelName));
@@ -81,6 +86,16 @@ public class SceneTransition : MonoBehaviour
     public void loadSettings()
     {
         ScreenTransition("Settings");
+    }
+
+    public void loadSeedInventory()
+    {
+        ScreenTransition("SeedInventory");
+    }
+
+    public void loadHarvestBasket()
+    {
+        ScreenTransition("HarvestBasket");
     }
 
     IEnumerator changeSortOrderAfterAnimation()

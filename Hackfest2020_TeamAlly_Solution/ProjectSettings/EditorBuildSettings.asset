@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: 225f23aebcbbc5c46a3b565b8eca5c00
+  - enabled: 1
+    path: Assets/Scenes/SeedInventory.unity
+    guid: 2a33c857eeb6bff489b9c783ae07fd18
+  - enabled: 1
+    path: Assets/Scenes/HarvestBasket.unity
+    guid: 2c2b33f1f996fc74190b79580c64c772
   m_configObjects: {}
