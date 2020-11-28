@@ -4026,6 +4026,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7283189117676256961, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 554063766}
+    - target: {fileID: 7283189117676256961, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: loadSeedInventory
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283189117676256961, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4084,22 +4099,22 @@ PrefabInstance:
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.3997
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -710.36414
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 940.68945
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 1420.7283
+      value: 1920
       objectReference: {fileID: 0}
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
@@ -4109,7 +4124,7 @@ PrefabInstance:
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
@@ -4119,7 +4134,7 @@ PrefabInstance:
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7283189118165572322, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
         type: 3}
@@ -4180,6 +4195,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283189118893869799, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 554063766}
+    - target: {fileID: 7283189118893869799, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: loadHarvestBasket
+      objectReference: {fileID: 0}
+    - target: {fileID: 7283189118893869799, guid: 329bb0509c41fdd4394fc9af99d3ee1d,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 329bb0509c41fdd4394fc9af99d3ee1d, type: 3}

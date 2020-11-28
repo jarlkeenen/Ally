@@ -14,14 +14,8 @@ public class CreditsHandler : MonoBehaviour
     void Start()
     {
         AdmobScript.instance.RequestRewardedAd();
-
+        Debug.Log("Test Write");
         confirmationPanel.SetActive(false);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void ShowRewardedAd()
