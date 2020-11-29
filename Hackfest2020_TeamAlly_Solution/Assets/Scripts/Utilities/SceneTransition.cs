@@ -53,14 +53,74 @@ public class SceneTransition : MonoBehaviour
         ScreenTransition("Greenhouse");
     }
 
+    public void loadBabyPlant()
+    {
+        ScreenTransition("BabyPlantScene");
+    }
+
+    public void loadDeadPlant()
+    {
+        ScreenTransition("DeadPlantScene");
+    }
+
     public void loadTitle()
     {
-        ScreenTransition("Menu");
+        ScreenTransition("TitleScreen");
     }
 
     public void loadPlant()
     {
-        ScreenTransition("End");
+        ScreenTransition("PlantScene");
+    }
+
+    public void loadTutorial()
+    {
+        ScreenTransition("Tutorial");
+    }
+
+    public void loadGardenNaming()
+    {
+        ScreenTransition("GardenNaming");
+    }
+
+    public void loadMarket()
+    {
+        ScreenTransition("Market");
+    }
+
+    public void loadNotification()
+    {
+        ScreenTransition("Notification");
+    }
+
+    public void loadSettings()
+    {
+        ScreenTransition("Settings");
+    }
+
+    public void loadSeedInventory()
+    {
+        ScreenTransition("SeedInventory");
+    }
+
+    public void loadHarvestBasket()
+    {
+        ScreenTransition("HarvestBasket");
+    }
+
+    public void loadCheckOut()
+    {
+        ScreenTransition("CheckOut");
+    }
+
+    public void loadTrackingHistory()
+    {
+        ScreenTransition("TrackingHistory");
+    }
+
+    public void loadReceipt()
+    {
+        ScreenTransition("Receipt");
     }
 
     IEnumerator changeSortOrderAfterAnimation()
