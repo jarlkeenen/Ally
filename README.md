@@ -1,6 +1,8 @@
 # Sprout.Me
 Sprout.me is a casual garden simulator game on mobile. Players collect a variety of plants and care for them everyday through tasks such as watering, fertilizing, and applying pesticide. By keeping their plants alive, players are awarded with in-game credits which can be redeemed for more plants, space for plants, and real-world rewards.
 
+**AIM:** In the face of a pandemic, we aim to support small businesses through our app by not only offering a way for people to enjoy their free time but in the process, help a local business sell their goods.
+
 **GENRE:** Casual 2D Garden Simulator
 
 ## Getting Started
