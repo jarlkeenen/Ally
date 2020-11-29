@@ -48,6 +48,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CheckOut.unity
     guid: 6174c6a72558cb949afda0c6bfaf7ce8
   - enabled: 1
+    path: Assets/Scenes/TrackingHistory.unity
+    guid: d8d6cfa32aef0814eb1b01b99bf79323
+  - enabled: 1
     path: Assets/Scenes/Receipt.unity
     guid: 8c158e6999886ef4eb0d1ef14ea1be39
   m_configObjects: {}

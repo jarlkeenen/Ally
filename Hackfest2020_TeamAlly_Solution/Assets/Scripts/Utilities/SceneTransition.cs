@@ -113,6 +113,16 @@ public class SceneTransition : MonoBehaviour
         ScreenTransition("CheckOut");
     }
 
+    public void loadTrackingHistory()
+    {
+        ScreenTransition("TrackingHistory");
+    }
+
+    public void loadReceipt()
+    {
+        ScreenTransition("Receipt");
+    }
+
     IEnumerator changeSortOrderAfterAnimation()
     {
         transform.parent.GetComponent<Canvas>().sortingOrder = 3;

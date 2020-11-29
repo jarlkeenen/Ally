@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class CareFunctions : MonoBehaviour
@@ -35,6 +36,8 @@ public class CareFunctions : MonoBehaviour
 
         opacityLevelText.gameObject.SetActive(false);
         lightOpacity = spotLight.GetComponent<SpriteRenderer>();
+
+        sunSlider.GetComponent<Slider>().value = lightOpacity.color.a;
     }
 
     public void waterPlant()
