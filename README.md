@@ -6,7 +6,9 @@ Sprout.me is a casual garden simulator game on mobile. Players collect a variety
 **GENRE:** Casual 2D Garden Simulator
 
 ## Getting Started
-To build the game, set the aspect ratio of the Main Camera game object to 9:16 if the camera isn't set and build normally through Unity. No other software required to build and run the app.
+To install the game, download/clone the **SproutMe.apk** file and transfer to your android mobile device. 
+
+To build the game manually, set the aspect ratio of the Main Camera game object to 9:16 if the camera isn't set and build normally through Unity. No other software required to build and run the app.
 
 ## THE TEAM
 ### DEVELOPERS:
