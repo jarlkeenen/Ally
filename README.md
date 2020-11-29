@@ -1,11 +1,14 @@
 # Sprout.Me
 Ally's Solution for HackFest 2020: Online
 
+
 ### DESCRIPTION:
 Sprout.me is a casual garden simulator game on mobile. Players collect a variety of plants and care for them everyday through tasks such as watering, fertilizing, and applying pesticide. By keeping their plants alive, players are awarded with in-game credits which can be redeemed for more plants, space for plants, and real-world rewards.
 
+
 #### GENRE:
 Casual 2D Garden Simulator
+
 
 ### FIGMA LINKS:
 
@@ -15,12 +18,13 @@ https://www.figma.com/file/c8pCPbKABo98YJpsyLjQXD/Greenhouse?node-id=0%3A1
 ##### Figma Prototype Link:
 https://www.figma.com/proto/c8pCPbKABo98YJpsyLjQXD/Greenhouse?node-id=1%3A7&scaling=scale-down
 
+## THE TEAM
 ### DEVELOPERS:
 - Juanito Jose Padilla
 - Jarl Keenen Sarmiento
-
 ### DESIGNER:
 - Mesai Memoria
+
 
 #### DISCLAIMER:
 We do not own nor created the icons or other images used in this project. Although, the other plant illustrations were created by Mesai Memoria, Team Ally's UI/UX Designer.
